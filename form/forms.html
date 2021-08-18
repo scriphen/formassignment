@@ -1,0 +1,370 @@
+<!--  application form -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>student application form</h1>
+        <form>
+            <lable for="student name">Student name</lable><br>
+        First name<br><input type="text" name="text" placeholder="first name"></input><br><br>
+        Last name<br><input type="text" name="text" placeholder="last name"></input><br><br>
+        <lable for="gender">gender</lable><br>
+        <input type="radio" name="gender" value="male">male</input><br>
+        <input type="radio" name="gender" value="female">female<br><br>
+        <lable for="nationality">Nationality</lable><br>
+        <input type="text" name="txtnation" placeholder="enter"><br><br>
+        <input type="email" name="email" placeholder="e-mail" validate><br><br>
+        <input type="tel" name="phonenum" placeholder="phone number"><br><br>
+         Birth date<br><input type="date"><br><br>
+         Address<br><input type="text" name="txtaddress" placeholder="street"><br><br>
+        <input type="text" name="txtaddress" placeholder="city"><br><br>
+        <input type="text" name="txtaddress" placeholder="state"><br><br>
+        <input type="text" name="txtpin" placeholder="pincode" maxlength="6"><br><br>
+        <lable for="name">Father's name</lable><br>
+        First name<br><input type="text" name="text" placeholder="first name"></input><br><br>
+        Last name<br><input type="text" name="text" placeholder="last name"></input><br><br>
+        <input type="email" name="email" placeholder="e-mail" validate><br><br>
+        <input type="tel" name="phonenum" placeholder="phone number"><br><br>
+        <lable for="address">Address</lable><br>
+        <input type="text" name="txtaddress" placeholder="street"><br><br>
+        <input type="text" name="txtaddress" placeholder="city"><br><br>
+        <input type="text" name="txtaddress" placeholder="state"><br><br>
+        <input type="text" name="txtpin" placeholder="pincode" maxlength="6"><br><br>
+        <input type="submit" value="next">
+    </form>
+    </body><hr>
+</html>
+<!--  bokking enquiry form-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Bokking enquiry form</h1>
+        <form>
+            <input type="text" name="txtfname"  placeholder="first name"><br><br>
+            <input type="text" name="txtlname"  placeholder="last name"><br><br>
+            <input type="email" name="email"  placeholder="E-mail id"><br><br>
+            <input type="tel" name="telnum"  placeholder="phone number"><br><br>
+            <lable for="arrival date">Arrival date</lable><br><br>
+            <input type="datetime-local"><br><br>
+            <lable for="days">number of days</lable><br>
+            <select>
+                <option >select</option>
+                <option name="day" value="1">1</option>
+                <option name="day" value="2">2</option>
+                <option name="day" value="3">3</option>
+                <option name="day" value="4">4</option>
+                <option name="day" value="5">5</option>
+                <option name="day" value="one week">one week</option>
+                <option name="day" value="more than week">more than week</option>
+            </select><br><br>
+            <lable for="guests">number of guests</lable>
+            <select>
+            <option>select</option>
+            <option name="guest" value="1">1</option>
+            <option name="guest" value="2">2</option>
+            <option name="guest" value="3">3</option>
+            <option name="guest" value="4">4</option>
+            <option name="guest" value="more than 4">more than 4</option>
+            </select><br><br>
+            <input type="submit" value="send request">
+        </form>
+    </body><hr>
+</html>
+<!--  call back form  -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>call back form</h1>
+        <form method="POST" enctype="multipart/form-data">
+           First name<br> <input type="text" name="fname"placeholder="enter first name"><br><br>
+           Last name<br> <input type="text" name="lname"placeholder="enter last name"><br><br>
+           preferred time<br> <input type="datetime-local" required><br><br>
+           enter your number<br><input type="tel" name="mobilenum" placeholder="enter mobile numbere" required><br><br>
+            <button type="submit" value="submit">submit</button>
+        </form>
+    </body><hr>
+</html>
+<!--  consultation form  -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>consultation form</h1>
+        <form>
+            first name<br> <input type="text" name="fname"><br><br>
+            last name<br><input type="text" name="lname"><br><br>
+            phone number<br><input type="tel" name="phonenum"><br><br>
+            e-mail id<br><input type="email" name="email"><br><br>
+            company or organization<br><input type="text" name="txtcompany"><br><br>
+            consultaion intrest<br>
+            <select>
+                <option>select somthing</option>
+                <option name="catogory" value="web design">web design</option>
+                <option name="catogory" value="support">support</option>
+                <option name="catogory" value="network">network</option>
+                <option name="catogory" value="full stack">full stack</option>
+                </select><br><br>
+            <lable for="date and time">appointment date and time</lable><br><br>
+            <input type="datetime-local"><br><br>
+            <input type="submit" value="apply">
+        </form>
+    </body><hr>
+</html>
+<!--  donation form-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>donation form</h1>
+        <form>
+            <input type="text" name="fname" placeholder="enter first name"><br><br>
+            <input type="text" name="lname" placeholder="enter last name"><br><br>
+            <input type="email" name="email" placeholder="enter mail id"><br><br>
+            <input type="tel" name="phonenum" placeholder="enter phone number"><br><br>
+            type of donation<br>
+            <input type="radio" name="rdtype" value="love offering">love offering<br><br>
+            <input type="radio" name="rdtype" value="one time">one time donation<br><br>
+            comments<br><br>
+            <textarea rows="7" cols="17" placeholder="comment here"></textarea><br><br>
+            donation amount<br> <input type="text" name="amount" accept="number"><br><br>
+            payment method<br> <input type="radio" name="rdpayment">debit or credit card<br>
+            <input type="radio" name="rdpayment">upi<br>
+            <input type="submit" value="submit">
+        </form>
+    </body><hr>
+</html>
+<!-- feedback form  -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>session feed back</h1>
+        <form>
+            The content of the day intresting?<br>
+            <input type="radio" name="feedback1" value="good">good<br>
+            <input type="radio" name="feedback1" value="okay">okay<br>
+            <input type="radio" name="feedback1" value="poor">poor<br>
+            The session well organized?<br>
+            <input type="radio" name="feedback2" value="good">good<br>
+            <input type="radio" name="feedback2" value="okay">okay<br>
+            <input type="radio" name="feedback2" value="poor">poor<br>
+            The content easy to follow along with?<br>
+            <input type="radio" name="feedback3" value="yes">yes<br>
+            <input type="radio" name="feedback3" value="no">no<br>
+            Would you attend another session?<br>
+            <input type="radio" name="feedback4" value="yes">yes<br>
+            <input type="radio" name="feedback4" value="no">no<br>
+            How would you rate the topic<br>
+            <input type="range" min="1" max="5"><br>
+            what aspects of the traning could improve?<br>
+            <textarea rows="7" cols="17" placeholder="comments here...."></textarea><br>
+            <input type="submit" value="submit">
+            
+            
+        </form>
+    </body><hr>
+</html>
+<!-- forget password form-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>forget password form</h1>
+        <form>
+            <lable for="password">new password</lable><br><br>
+            <input type="password" name="txtpassword" ><br><br>
+            <lable for="confirm password">confirm password</lable><br><br>
+            <input type="password" name="conform"><br><br>
+            <input type="submit" name="newpassword" value="reset password">
+            <input type="submit" name="reset" value="reset">
+        </form>
+    </body><hr>
+</html>
+<!--   job application form-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>job appliction form</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="text" name="txtFname" placeholder="first name"><br><br>
+            <input type="text" name="txtMname" placeholder="middile name"><br><br>
+            <input type="text" name="txtLname" placeholder="last name"><br><br>
+            birth date<br><input type="date"><br><br>
+            current address<br><input type="text" name="txtAddress" placeholder="street/area" rows="5" cols="5"><br><br>
+            <input type="text" name="txtCity" placeholder="city"><br><br>
+            <input type="text" name="pincode" placeholder="pincode"><br><br>
+            <select>
+                <option>select state</option>
+                <option>ap</option>
+                <option>kerala</option>
+                <option>maharashtra</option>
+                <option>tamil nadu</option>
+                <option>goa</option>
+                <option>karnataka</option>
+                <option>others</option>
+            </select><br><br>
+            <input type="email" name="email" placeholder="mail id"><br><br>
+            <input type="tel" name="mobilenum" placeholder="phone number" maxlength="12"><br><br>
+            <select>
+                <option>position applied</option>
+                <option>ui devloper</option>
+                <option>backend developer</option>
+                <option>full stack developer</option>
+            </select><br><br>
+            <input type="file" name="filUploade"><br><br>
+            <input type="submit" value="submit">
+        </form>
+    </body><hr>
+</html>
+<!--    signin form   -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>sign in form</h1>
+        <form>
+            <input type="email" name="email" placeholder="enter mail id"><br><br>
+            <input type="password" name="password" placeholder="enter password" maxlength="12"><br><br>
+            <input type="submit" value="submit">
+        </form>
+    </body><hr>
+</html>
+<!--   payment form  -->
+<!DOCTYPE html>
+<html>
+    <h1>payment form</h1>
+    <body>
+        <form method="post" enctype="multipart/form-data">
+        First name<br><input type="text" name="fname"><br>
+        Last name<br><input type="text" name="lname"><br>
+        <lable for="payment type" value="payment type">payment type</lable><br>
+        <select>
+            
+            <option></option>
+            <option>cirdit card</option>
+            <option>debit card</option>
+            <option>upi transfer</option>
+        </select><br>
+        card number<br><input type="password" name="cardnum"><br>
+        cvc<br><input type="password" name="cvcnum" maxlength="3" accept="number/*"><br>
+        expiry date<br><input type="month"><br><br>
+        <input type="submit" value="submit">
+    </form>
+    </body><hr>
+</html>
+<!--     registration form   -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>registration form</h1>
+        <form>
+            <input type="text" name="fname" placeholder="first name"><br><br>
+            <input type="text" name="lname" placeholder="last name"><br><br>
+            <lable for="data of birth">date of birth</lable><br>
+            <input type="date" name="DOB"><br><br>
+            <input type="email" name="email" placeholder="mail id"><br><br>
+            <input type="password" name="password" placeholder="password" maxlength="10"><br><br>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female<br>
+            <select>
+                <option>select course</option>
+                <option name="html">html</option>
+                <option name="css">css</option>
+                <option name="java script">java script</option>
+                <option name="bootstrap">bootstrap</option>
+            </select><br><br>
+            <button type="submit">submit</button>
+        </form>
+    </body><hr>
+</html>
+<!--    login form   -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>sigup form</h1>
+        <form>
+        <input type="email" name="email" placeholder="mail id"><br><br>
+        <button type="submit" value="sign up">sign up</button>
+    </form>
+    </body><hr>
+</html>
+<!--     subscription form   -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>subscription form</h2>
+        <form>
+            Enter mail id<br><input type="email" name="eOpen" placeholder="mail id"><br><br>
+            Enter password<br><input type="password" name="password" placeholder="password" maxlength="8"><br><br>
+            <input type="submit" value="subscribe">
+        </form>
+    </body><hr>
+</html>
+<!--       survey form    -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>lockdown survey form</h1>
+        <form>
+            First name<br><input type="text" name="txtfname"><br><br>
+            Last name<br><input type="text" name="txtlname"><br><br>
+            E-mail<br><input type="email" name="email"><br><br>
+            <lable for="survey">How has lockdown made you feel</lable><br>
+            <input type="radio" name="rdsurvey1" value="happy">happy<br>
+            <input type="radio" name="rdsurvey1" value="unhappy">unhappy<br>
+            <input type="radio" name="rdsurvey1" value="very unhappy">very unhappy<br>
+            <lable for="survey">How has  you feel about HFH</lable><br>
+            <input type="radio" name="rdsurvey2" value="very happy">very happy<br>
+            <input type="radio" name="rdsurvey2" value="happy">happy<br>
+            <input type="radio" name="rdsurvey2" value="very unhappy">very unhappy<br>
+            <lable for="survey">How has lockdown made you feel</lable><br>
+            <input type="radio" name="rdsurvey3" value="happy">happy<br>
+            <input type="radio" name="rdsurvey3" value="unhappy">unhappy<br>
+            <input type="radio" name="rdsurvey3" value="very unhappy">very unhappy<br>
+            <lable for="survey">Do you using public transport during lockdown?</lable><br>
+            <input type="radio" name="rdsurvey4" value="yes">yes<br>
+            <input type="radio" name="rdsurvey4" value="no">no<br>
+            <lable for="survey1">Did lockdown affect your mental health?</lable><br>
+            <input type="radio" name="rdsurvey5" value="yes">yes<br>
+            <input type="radio" name="rdsurvey5" value="no">no<br>
+            <lable for="survey">Do you watching tv series during lockdown?</lable><br>
+            <input type="radio" name="rdsurvey" value="yes">yes<br>
+            <input type="radio" name="rdsurvey" value="no">no<br>
+            <lable for="survey1">Do you waiting for second part of ipl?</lable><br>
+            <input type="radio" name="rdsurvey" value="yes">yes<br>
+            <input type="radio" name="rdsurvey" value="no">no<br>
+            <lable for="survey1">Do you think csk will be the ipl champion of 2021?</lable><br>
+            <input type="radio" name="rdsurvey" value="Definitely yes">Definitely yes<br>
+            <input type="radio" name="rdsurvey" value="Absolutely yes">Absolutely yes<br>
+            <input type="submit" value="Done">      
+        </form>
+    </body><hr>
+</html>
+<!--      volunteer application form   -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>volunteer application form</h1>
+        <form>
+       <strong>first name</strong><br> <input type="text" name="fname"><br><br>
+       <strong>last name</strong><br><input type="text" name="lname"><br><br>
+       <strong>days of work</strong><br>
+       <input type="checkbox" name="chday" value="monday">monday<br>
+       <input type="checkbox" name="chday" value="tuesday">tuesday<br>
+       <input type="checkbox" name="chday" value="wednesday">wednesday<br>
+       <input type="checkbox" name="chday" value="thursday">thursday<br>
+       <input type="checkbox" name="chday" value="friday">friday<br>
+       <input type="checkbox" name="chday" value="saturday">saturday<br>
+       <input type="checkbox" name="chday" value="sunday">sunday<br>
+       <strong>Area of intrest</strong><br>
+       <textarea rows="7" cols="17" placeholder="comment here..."></textarea><br>
+       <lable for="skill"><strong>skill</strong></lable><br>
+       <input type="checkbox" name="chskill" value="teaching">teaching<br>
+       <input type="checkbox" name="chskill" value="childcare">child care<br>
+       <input type="checkbox" name="chskill" value="first aid">first aid<br>
+       <input type="checkbox" name="chskill" value="story telling">story telling<br>
+       <strong>email id</strong><br><input type="email" name="email"><br><br>
+       <strong>phone no</strong><br><input type="tel" name="phonenum"><br><br>
+       <strong>address</strong><br>
+       <input type="text" name="address" placeholder="street/area"><br>
+       <input type="text" name="address" placeholder="city"><br>
+       <input type="text" name="address" placeholder="state"><br>
+       <input type="text" name="address" placeholder="pin code"><br>
+       <input type="submit" value="submit">
+    </form>
+    </body><hr>
+</html>
